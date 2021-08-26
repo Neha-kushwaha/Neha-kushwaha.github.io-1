@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat and Enjoy</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    * {
+        font-family: cursive;
+        font-weight: bold;
+    }
+
+    /* css reset */
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        /* background: url("E:/neha.html/img/casey-lee-awj7sRviVXo-unsplash.jpg"); */
+        /* background-image: url("E:/neha.html/img/nn.jpg"); */
+        background-image: url("E:/neha.html/foods/2a.jpg");
+        font-family: baloo Bhai;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .left {
+        font-family: baloo Bhai;
+
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+
+    }
+
+    .left img {
+        width: 125px;
+
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .mid {
+        font-family: baloo Bhai;
+
+        display: block;
+        width: 38%;
+        margin: -12px auto;
+        /* border: 2px solid red; */
+
+
+    }
+
+    .right {
+        font-family: baloo Bhai;
+
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 21px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        padding: 3px 0px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        background-color: c59972;
+
+    }
+
+    .btn:hover {
+        background-color: bisque;
+    }
+
+    .container {
+        border: 2px solid #fafafa;
+        margin: 96px 933px;
+        padding: 2px 2px;
+        width: 33%;
+        border-radius: 11px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 307px;
+        font-size: 17px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 12px auto;
+        border-radius: 28px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74px;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="E:/neha.html/foods/710a26d2c8b24b71f99d4714bce66225.png" alt="">
+            <div>Eat and Enjoy</div>
+        </div>\
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Foods</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Order Food</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Enjoy the best and health food </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Food you want to order">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter  your address">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

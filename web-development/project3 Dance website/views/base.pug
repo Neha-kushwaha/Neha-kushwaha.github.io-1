@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Start's Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar 
+        ul 
+            div#logo  
+                img(src="/static/logo1.png")   
+                | HDA
+            li #[a(href="/") Home] 
+            li #[a(href="/") About]
+            li #[a(href="/") services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact us]
+            
+    block content
+    footer#footer 
+        |Copyright ©2019 Start'sDanceAcademy.com | All rights reserved

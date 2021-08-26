@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+
+block style
+    style
+      include ../static/style.css
+
+block content 
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/logo1.png", alt="")
+                div.card-content
+                    p This is the best dance academy of the Indore
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/logo2.png", alt="")
+                div.card-content
+                    p This is the best dance academy of the Indore
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/logo5.png", alt="")
+                div.card-content
+                    p This is the best dance academy of the Indore  
+
+    section#sponsorsSection 
+         h2 Our Sponsors 
+            div#sponsors  
+                img(src="/static/bottom/hp2.png", alt="hp logo", Class="spImage") 
+                img(src="/static/bottom/logo-767610_1920.jpg", alt="hp logo", Class="spImage") 
+                img(src="/static/bottom/microsoft-80658_1280.png", alt="hp logo", Class="spImage") 
+                img(src="/static/bottom/skype.png", alt="hp logo", Class="spImage")                

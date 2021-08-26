@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo  
+                img(src="/static/logo1.png")   
+                | HDA
+            li #[a(href="/") Home] 
+            li #[a(href="/") About]
+            li #[a(href="/") services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact us]
+
+section#introSection 
+    div Welcome to start's Dance Academy      
+    div.small Rock and Dance
+
+section#missionSection 
+    h2 Our Mission 
+    div.card   
+      h3 Dance perfection
+      div.card-box  
+        div.card-img 
+          img(src="/static/logo1.png", alt="")
+        div.card-content  
+          p This is the best dance academy of the Indore  
+    div.card   
+      h3 Dance the way you like
+      div.card-box  
+        div.card-img 
+          img(src="/static/logo2.png", alt="")
+        div.card-content  
+          p This is the best dance academy of the Indore  
+    div.card   
+      h3 Expert Teaching
+      div.card-box  
+        div.card-img 
+          img(src="/static/logo5.png", alt="")
+        div.card-content  
+          p This is the best dance academy of the Indore  
+     
+section#sponsorsSection 
+    h2 Our Sponsors 
+    div#sponsors  
+      img(src="/static/bottom/hp2.png", alt="hp logo", Class="spImage") 
+      img(src="/static/bottom/logo-767610_1920.jpg", alt="hp logo", Class="spImage") 
+      img(src="/static/bottom/microsoft-80658_1280.png", alt="hp logo", Class="spImage") 
+      img(src="/static/bottom/skype.png", alt="hp logo", Class="spImage") 
+
+footer#footer 
+    |Copyright ©2019 Start'sDanceAcademy.com | All rights reserved
+
+    script
+      include ../static/index.js
